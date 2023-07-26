@@ -1,0 +1,11 @@
+/home/mohuva/Documents/Fast_Password_Generator/target/release/deps/copypasta-78046eab1f7041c4.rmeta: /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/lib.rs /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/common.rs /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/wayland_clipboard.rs /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/x11_clipboard.rs /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/nop_clipboard.rs
+
+/home/mohuva/Documents/Fast_Password_Generator/target/release/deps/libcopypasta-78046eab1f7041c4.rlib: /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/lib.rs /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/common.rs /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/wayland_clipboard.rs /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/x11_clipboard.rs /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/nop_clipboard.rs
+
+/home/mohuva/Documents/Fast_Password_Generator/target/release/deps/copypasta-78046eab1f7041c4.d: /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/lib.rs /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/common.rs /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/wayland_clipboard.rs /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/x11_clipboard.rs /home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/nop_clipboard.rs
+
+/home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/lib.rs:
+/home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/common.rs:
+/home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/wayland_clipboard.rs:
+/home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/x11_clipboard.rs:
+/home/mohuva/.cargo/registry/src/index.crates.io-6f17d22bba15001f/copypasta-0.8.2/src/nop_clipboard.rs:
