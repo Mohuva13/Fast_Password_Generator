@@ -1,6 +1,9 @@
 #![allow(non_snake_case)]
 
 use generator::password_generator::gen_by_len as gen_by_len;
+use copypasta::ClipboardContext;
+use copypasta::ClipboardProvider;
+
 
 
 mod generator;
@@ -14,13 +17,15 @@ fn main() {
 
 
     // Password_string
+    // Generate password
     let password_string = String::from(gen_by_len(password_length));
 
 
 
 
-    // generate password
+    // Print password
     println!("\n");
     println!("Generated password:");
     println!("{}", password_string);
+    println!("\n Password has been copied to clipboard!");
 }
