@@ -22,6 +22,12 @@ fn main() {
 
 
 
+    // Copy password to clipboard by copypasta crate
+    let mut ctx = ClipboardContext::new().unwrap();
+    let _ = ctx.get_contents();
+    ctx.set_contents(password_string.to_string()).unwrap();
+    let _ = ctx.get_contents();
+
 
     // Print password
     println!("\n");
