@@ -3,6 +3,7 @@
 use generator::password_generator::gen_by_len as gen_by_len;
 use copypasta::ClipboardContext;
 use copypasta::ClipboardProvider;
+use std::env;
 
 
 
@@ -11,10 +12,20 @@ mod generator;
 fn main() {
     // input password length
     let mut password_length = String::new();
-    println!("Input password length: ");
-    std::io::stdin().read_line(&mut password_length).expect("Failed to read line");
-    let password_length: i32 = password_length.trim().parse().expect("Please type a number!");
 
+
+    // Integer Arguments = password_length or input password_length
+    let args: Vec<String> = env::args().collect();
+    if args.len() > 1 {
+        password_length = args[1].clone();
+    }
+    else {
+        println!("Input password length: ");
+        std::io::stdin().read_line(&mut password_length).expect("Failed to read line");
+    }
+
+    // Convert values of password_length to i32
+    let password_length: i32 = password_length.trim().parse().expect("Please type a number!");
 
     // Password_string
     // Generate password
